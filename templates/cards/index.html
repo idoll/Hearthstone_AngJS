@@ -1,0 +1,10 @@
+<div class='search'>
+	<input type='search' ng-model="cards.name" placeholder='Type Card Name'>
+	<input type='search' ng-model="cards.cost" placeholder='Type Card Cost'>
+</div>
+<hr>
+<div class='row'>
+	<div  ng-repeat='card in cardCtrl.cards | filter: cards | limitTo:30' class='col-md-2'>
+		<img ng-src="http://wow.zamimg.com/images/hearthstone/cards/enus/medium/{{card.id}}.png" alt='{{card.name}}'/>
+	</div>
+</div>

@@ -1,0 +1,31 @@
+/*main.css*/
+header{
+	background-color:#72BBDC;
+}
+
+.header-nav{
+	float:right;
+	padding: 180px 0 0 0;
+}
+
+.header-nav li{
+	display:inline;
+}
+
+.header-nav a{
+	color:#FFFFFF;
+	padding:0 10px 0 0;
+}
+
+.search{
+	padding-top:10px;
+}
+
+div.cards{
+	padding:0 !important;
+	margin:0 !important;
+}
+
+hr{
+	margin:0;
+}
